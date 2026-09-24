@@ -4222,10 +4222,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CubesManager
   _cube: {fileID: 8371299357865202045, guid: 905b9ecafde7c1045a1cf898fa32b982, type: 3}
-  _premiumCube: {fileID: 0}
-  _cubesCount: 2000
-  _cubesSpeed: 33
-  _rotationDirection: 0
+  _premiumCube: {fileID: 2252647185927862781, guid: 220ff47dd610d61438fa2e39e1c36006, type: 3}
+  _cubesCount: 10
+  _speedModifier: 3
+  _minCubesSpeed: 8
+  _maxCubesSpeed: 20
+  _radiusModifier: 3
+  _minRadius: 3
+  _maxRadius: 5
+  _isRotationInversive: 0
 --- !u!4 &1791528041
 Transform:
   m_ObjectHideFlags: 0
